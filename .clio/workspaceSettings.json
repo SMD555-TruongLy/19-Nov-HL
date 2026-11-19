@@ -1,0 +1,9 @@
+{
+  "Packages": [
+    "Custom",
+    "UsrYacht"
+  ],
+  "ApplicationVersion": "10.0.0.621",
+  "IgnorePackages": [],
+  "ExternalPackages": []
+}
