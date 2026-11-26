@@ -14,6 +14,29 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"values": {
 					"valueDetails": "$Status_ValueDetails"
 				}
+			},
+			{
+				"operation": "insert",
+				"name": "TicketPrice",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 5,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_UsrTicketPrice_6b38atc",
+					"control": "$PDS_UsrTicketPrice_6b38atc",
+					"readonly": false,
+					"placeholder": "",
+					"labelPosition": "auto",
+					"tooltip": "",
+					"visible": false
+				},
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 4
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -26,6 +49,11 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"Status_ValueDetails": {
 						"modelConfig": {
 							"path": "PDS.UsrStatusDescription"
+						}
+					},
+					"PDS_UsrTicketPrice_6b38atc": {
+						"modelConfig": {
+							"path": "PDS.UsrTicketPrice"
 						}
 					}
 				}

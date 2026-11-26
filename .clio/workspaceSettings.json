@@ -1,6 +1,7 @@
 {
   "Packages": [
     "Custom",
+    "UsrMain",
     "UsrYacht"
   ],
   "ApplicationVersion": "10.0.0.621",

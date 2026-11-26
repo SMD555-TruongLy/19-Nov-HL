@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.UsrColumn20.Caption" Value="Text 1" />
+			<Item Name="Columns.UsrTicketPrice.Caption" Value="Ticket price" />
+		</Items>
+	</Group>
+</Resources>
